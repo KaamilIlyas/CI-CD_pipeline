@@ -2,6 +2,7 @@ name: Unit Testing
 
 on:
   pull_request:
+    types: [closed]
     branches:
       - test
 
