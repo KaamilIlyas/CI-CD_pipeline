@@ -2,8 +2,9 @@ name: Unit Testing
 
 on:
   pull_request:
-    branches:
-      - test
+    types: [closed]
+      branches:
+        - test
 
 jobs:
   unit_testing:
